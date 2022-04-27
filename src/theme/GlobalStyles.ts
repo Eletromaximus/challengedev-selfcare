@@ -7,6 +7,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   ${normalize}
+  html,
   body {
     margin: 0;
     padding: 0;
@@ -18,7 +19,6 @@ export const GlobalStyles = createGlobalStyle`
 
   div, #root {
     display: flex;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
   }
 `
