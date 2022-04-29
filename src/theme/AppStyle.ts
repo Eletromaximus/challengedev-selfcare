@@ -12,7 +12,7 @@ export const AppStyle = styled.div`
     height: 375px;
     width: 100%;
 
-    background: url("Banner.png") no-repeat center;
+    background: url("assets/Banner.png") no-repeat center;
   }
   
   #product-list {
