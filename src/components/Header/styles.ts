@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 
-export const HeaderStyle = styled.header`
+export const HeaderStyle = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   height: 94px;
-  margin: 0 30px;
+  width: 100%;
+  padding: 0 70px;
 `
 export const LogoStyle = styled.div`
   display: flex;

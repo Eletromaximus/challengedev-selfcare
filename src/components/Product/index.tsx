@@ -10,8 +10,11 @@ export function Product ({ source, name, price }: IProduct) {
   return (
     <ProductStyle>
       <img src={source} alt={name} />
-      <span>{name}</span>
-      <span>{price}</span>
+      <h3>{name}</h3>
+      <div>
+        <h3>R$ </h3>
+        <h3 className='price'>{ price}</h3>
+      </div>
     </ProductStyle>
   )
 }
